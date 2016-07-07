@@ -7,15 +7,14 @@ module Color
   BG = "#ebedf3"
   FG = "#3f4e5c"
   WHITE = "#f8f8f8"
-  GRAY = "#666666"
+  GRAY = "#95a5a6"
   BLACK = "#222222"
   RED = "#e74c3c"
   GREEN = "#27ae60"
   BLUE = "#3498db"
-  YELLOW = "#95a5a6"
+  YELLOW = "#f1c40f"
   ORANGE = "#e67e22"
   PURPLE = "#9b59b6"
-  PINK = "#d35400"
   CYAN = "#16a085"
   NO_ = "#ff00ff"
 
@@ -77,7 +76,7 @@ module Color
       background: BG,
       divider: BLACK,
       foreground: FG,
-      invisibles: RED,
+        invisibles: RED,
       caret: BLACK,
       lineHighlight: dilute(CYAN, 10),
       selection: dilute(CYAN, 20),
@@ -235,26 +234,30 @@ module Color
 
  @_settings = {
     "Call" => style(PURPLE),
-    "Parameter" => style(BLACK, "bold"),
-    "Comments" => style(RED, "bold"),
-    "Punctuation" => style(YELLOW),
-    "Delimiters" => style(YELLOW),
-    "Operators" => style(YELLOW),
+    "Parameter" => style(BLUE),
+    "Comments" => style(RED, "italic"),
+    "Punctuation" => style(GRAY),
+    "Delimiters" => style(GRAY),
+    "Operators" => style(GRAY, "bold"),
     "Search" => style(PURPLE, "bold"),
     "Search Line" => style(BLUE, "bold"),
-    "Keywords" => style(BLUE, "bold"),
-    "Variables" => style(CYAN),
+    "Keywords" => style(BLACK, "bold"),
+    "Variables" => style(BLUE),
     "Functions" => style(CYAN, "bold"),
     "Classes" => style(PURPLE, "bold"),
     "Methods" => style(PURPLE, "bold"),
-    "Storage" => style(BLUE, "bold"),
-    "Strings" => style(GREEN),
+    "Storage" => style(BLACK, "bold"),
+    # "Strings" => style(GREEN),
+    "Strings" => {
+      foreground: GREEN,
+      background: dilute(GREEN, 6)
+    },
     "Symbols" => style(ORANGE),
     "Integers" => style(ORANGE),
     "Floats" => style(ORANGE),
     "Boolean" => style(ORANGE),
     "Constants" => style(ORANGE),
-    "Support" => style(PINK),
+    "Support" => style(PURPLE, "bold"),
     "Tags" => style(BLUE),
     "Attributes" => style(CYAN),
     "Attribute IDs" => style(CYAN),
@@ -273,8 +276,8 @@ module Color
     "Deleted" => style(RED),
     "Changed" => style(YELLOW),
     "Colors" => style(ORANGE),
-    "Regular Expressions" => style(ORANGE),
-    "Escape Characters" => style(GREEN),
+    "Regular Expressions" => style(GREEN),
+    "Escape Characters" => style(ORANGE),
     "Embedded" => style(PURPLE),
     "Broken" => style(RED, "bold"),
     "Deprecated" => style(RED, "bold"),
