@@ -135,6 +135,7 @@ module Color
         "entity.name.class",
         "entity.name.type.class",
         "entity.name.type.module",
+        "entity.other.inherited-class",
         "meta.class"
       ]],
       ["Methods", "keyword.other.special-method"],
@@ -142,7 +143,6 @@ module Color
       ["Support", "support"],
       ["Strings", [
         "string",
-        "entity.other.inherited-class",
         "punctuation.definition.string",
         "support.constant.property-value"
       ]],

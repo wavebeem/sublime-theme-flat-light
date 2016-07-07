@@ -179,7 +179,7 @@
         <key>name</key>
         <string>Classes</string>
         <key>scope</key>
-        <string>support.class, entity.name.class, entity.name.type.class, entity.name.type.module, meta.class</string>
+        <string>support.class, entity.name.class, entity.name.type.class, entity.name.type.module, entity.other.inherited-class, meta.class</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -231,7 +231,7 @@
         <key>name</key>
         <string>Strings</string>
         <key>scope</key>
-        <string>string, entity.other.inherited-class, punctuation.definition.string, support.constant.property-value</string>
+        <string>string, punctuation.definition.string, support.constant.property-value</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
