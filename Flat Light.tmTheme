@@ -28,19 +28,19 @@
           <key>caret</key>
           <string>#222222</string>
           <key>lineHighlight</key>
-          <string>#16a08519</string>
+          <string>#95a5a619</string>
           <key>selection</key>
-          <string>#16a08533</string>
+          <string>#95a5a6</string>
           <key>selectionForeground</key>
-          <string>#222222</string>
+          <string>#f8f8f8</string>
           <key>shadow</key>
           <string>#2222223f</string>
           <key>shadowWidth</key>
           <string>8</string>
           <key>gutterForeground</key>
-          <string>#2222224c</string>
+          <string>#95a5a67f</string>
           <key>guide</key>
-          <string>#2222221e</string>
+          <string>#22222219</string>
           <key>activeGuide</key>
           <string>#2222223f</string>
         </dict>
