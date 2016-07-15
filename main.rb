@@ -4,7 +4,7 @@ require "nokogiri"
 module Color
   extend self
 
-  BG = "#ebedf3"
+  BG = "#eff1f5"
   FG = "#3f4e5c"
   WHITE = "#f8f8f8"
   GRAY = "#95a5a6"
@@ -78,14 +78,17 @@ module Color
       foreground: FG,
       invisibles: RED,
       caret: BLACK,
-      lineHighlight: WHITE,
-      selection: GRAY,
-      selectionForeground: WHITE,
+      lineHighlight: dilute(YELLOW, 15),
+      # lineHighlight: dilute(FG, 10),
+      selection: dilute(YELLOW, 50),
+      selectionForeground: BLACK,
       shadow: dilute(BLACK, 30),
       shadowWidth: 6,
-      gutterForeground: dilute(FG, 25),
-      guide: dilute(BLACK, 10),
-      activeGuide: dilute(BLACK, 25),
+      # gutter: WHITE,
+      # gutter: dilute(FG, 10),
+      gutterForeground: dilute(FG, 40),
+      guide: dilute(FG, 10),
+      activeGuide: dilute(BLACK, 20),
     }
   end
 
@@ -295,7 +298,7 @@ module Color
     },
     "Illegal" => {
       foreground: WHITE,
-      background: dilute(RED, 80),
+      background: RED,
       fontStyle: "bold",
     },
   }

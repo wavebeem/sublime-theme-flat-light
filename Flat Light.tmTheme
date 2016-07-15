@@ -18,7 +18,7 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#ebedf3</string>
+          <string>#eff1f5</string>
           <key>divider</key>
           <string>#222222</string>
           <key>foreground</key>
@@ -28,21 +28,21 @@
           <key>caret</key>
           <string>#222222</string>
           <key>lineHighlight</key>
-          <string>#f8f8f8</string>
+          <string>#f1c40f26</string>
           <key>selection</key>
-          <string>#95a5a6</string>
+          <string>#f1c40f7f</string>
           <key>selectionForeground</key>
-          <string>#f8f8f8</string>
+          <string>#222222</string>
           <key>shadow</key>
           <string>#2222224c</string>
           <key>shadowWidth</key>
           <string>6</string>
           <key>gutterForeground</key>
-          <string>#3f4e5c3f</string>
+          <string>#3f4e5c66</string>
           <key>guide</key>
-          <string>#22222219</string>
+          <string>#3f4e5c19</string>
           <key>activeGuide</key>
-          <string>#2222223f</string>
+          <string>#22222233</string>
         </dict>
       </dict>
       <dict>
@@ -627,7 +627,7 @@
           <key>foreground</key>
           <string>#f8f8f8</string>
           <key>background</key>
-          <string>#e74c3ccc</string>
+          <string>#e74c3c</string>
           <key>fontStyle</key>
           <string>bold</string>
         </dict>
