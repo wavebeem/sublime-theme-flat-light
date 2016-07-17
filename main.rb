@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# Based on colors from https://www.materialui.co/flatuicolors
 require "nokogiri"
 
 module Color
@@ -86,7 +87,8 @@ module Color
       shadowWidth: 6,
       # gutter: WHITE,
       # gutter: dilute(FG, 10),
-      gutterForeground: dilute(FG, 40),
+      # gutterForeground: dilute(FG, 40),
+      gutterForeground: dilute(GRAY, 60),
       guide: dilute(FG, 10),
       activeGuide: dilute(BLACK, 20),
     }
@@ -237,7 +239,7 @@ module Color
  @_settings = {
     "Call" => style(PURPLE),
     "Parameter" => style(BLUE),
-    "Comments" => style(RED, "italic"),
+    "Comments" => style(GRAY, "italic"),
     "Punctuation" => style(GRAY),
     "Delimiters" => style(GRAY),
     "Operators" => style(GRAY, "bold"),

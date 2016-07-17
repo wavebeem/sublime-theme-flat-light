@@ -38,7 +38,7 @@
           <key>shadowWidth</key>
           <string>6</string>
           <key>gutterForeground</key>
-          <string>#3f4e5c66</string>
+          <string>#95a5a699</string>
           <key>guide</key>
           <string>#3f4e5c19</string>
           <key>activeGuide</key>
@@ -66,7 +66,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#e74c3c</string>
+          <string>#95a5a6</string>
           <key>fontStyle</key>
           <string>italic</string>
         </dict>
